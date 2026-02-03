@@ -1,1 +1,2 @@
-pytest -n=auto --html=Html_reports\my_chromereport_28th_jan_2026.html --browser chrome
+pytest -n=auto --html=Html_reports\my_chromereport_31st_jan.html --browser chrome -k "test_verify_Credkart_url_001" --alluredir=AllureReports --disable-warnings
+pytest -n=auto --html=Html_reports\my_firefoxreport_31st_jan.html --browser firefox -k "test_verify_Credkart_url_001" --alluredir=AllureReports --disable-warnings
